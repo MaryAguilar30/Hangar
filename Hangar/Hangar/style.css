@@ -1,0 +1,48 @@
+body{
+  background: #fff;
+  
+}
+
+.picture img{
+    display: flex;
+    width: 210px;
+    height: 150px;
+    padding: 5px;
+   margin-left: auto;
+   margin-right: auto;
+    
+}
+
+
+.navegacion{
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.navegacion ul{
+    list-style: none;
+
+}
+
+.menu > li{
+    /*position: relative;*/
+    display: inline-block;
+
+
+}
+
+.menu > li >a {
+    display: block;
+    padding:  15px 20px;
+    color:#000 ;
+    font-family: 'Open sans';
+    text-decoration: none;  
+
+}
+
+.menu li a:hover{
+    color: #C1D8C3;
+    transition:  all .3s;
+}
